@@ -1,0 +1,46 @@
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 300px;
+}
+.heading {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+.para {
+  color: white;
+}
+.para1 {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.accelerate {
+  background-color: #0b69ff;
+  color: white;
+  border: 0 solid;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.brake {
+  background-color: transparent;
+  color: #cbd5e1;
+  border-width: 1px;
+  border-color: #94a3b8;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+}
